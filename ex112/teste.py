@@ -1,5 +1,6 @@
 from utilidadescev.moeda import moeda
+from utilidadescev.dados import validadados
 
-p= float(input('Digite o preço: R$ '))
+p= validadados.leiaDinheiro('Digite o preço: R$ ')
 
-moeda.resumo (p,30,15)
+moeda.resumo (p,200,1)
